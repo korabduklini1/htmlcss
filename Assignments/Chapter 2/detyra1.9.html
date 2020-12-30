@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Fig. 2.11: list.html -->
+<!-- Nested lists and ordered lists. -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lists</title>
+</head>
+<body>
+    <button onclick="goBack()">Go Back</button>
+
+    <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
+    <h1>The Best Features of the Internet</h1>
+    <!-- create an unoredered list -->
+    <ul>
+        <li>You can meet new people from countries around the world.</li>
+        <li>You have access to new media as it becomes public:</li>
+        <!-- this starts a nested unordedred list,  which uses a -->
+        <!-- different bullet. The list ends when you close the <ul> tag -->
+        <ul>
+            <li>New Games</li>
+            <li>New applications</li>
+            <!-- nested ordered list -->
+            <ol>
+                <li>For business</li>
+                <li>For pleasure</li>
+            </ol>
+        </li>  <!-- ends line 27 new applications li -->
+
+        <li>Around the clock news</li>
+        <li>Search engines</li>
+        <li>Shopping</li>
+        <li>Programming
+            <!-- another nested ordered list -->
+            <ol>
+                <li>XML</li>
+                <li>Java</li>
+                <li>HTML5</li>
+                <li>JavaScript</li>
+                <li>New Languages</li>
+            </ol>
+        </li> <!-- ends programming li -->
+        </ul> <!-- ends the nested list -->
+
+        <li>Links</li>
+        <li>Keeping in touch with old friends</li>
+        <li>It's the technology of the future!</li>
+    </ul> <!-- ends the unordered list -->
+</body>
+</html>

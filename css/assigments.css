@@ -1,0 +1,25 @@
+.text {
+    text-align: center;
+    margin-top: 6rem;
+}
+table {
+    width: 80%;
+    margin:auto;
+    border:1px solid #111;
+    border-radius:15px;
+    empty-cells: hide;
+    text-align: center;
+
+}
+table td, table th{
+    padding: 8px 20px;
+    border: 1px solid black;
+    margin-top: 2rem;
+}
+table th {
+    color: #ff3300;
+}
+table a {
+    color: #111;
+    font-weight: 500;
+}

@@ -1,0 +1,82 @@
+header .header-text h1 {
+  font-size: 33px;
+}
+header .header-text h3 {
+  font-size: 23px;
+  margin-bottom: 0.5rem;
+}
+.btn_wrap {
+  padding: 6px 30px;
+}
+.contact-me {
+  display: flex;
+  justify-content: center;
+  align-self: Center;
+  flex-direction: column;
+}
+.contact-me {
+  border: 1px solid #e6e6e6;
+  padding: 30px 40px;
+}
+.contact-me h1 {
+  margin-bottom: 1rem;
+  font-size: 29px;
+}
+.contact-me input,
+.contact-me textarea,
+.contact-me button {
+  width: 90%;
+  margin: auto;
+  border: 1px solid #ccc;
+  padding: 8px 20px;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+}
+.contact-me input:focus,
+.contact-me textarea:focus {
+  outline: none;
+  box-shadow: 1px 1px 5px #ff3300;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.contact-me button {
+  background-color: #ff3300;
+  color: White;
+  cursor: pointer;
+}
+.contact-me i {
+  font-size: 15px;
+  position: relative;
+  left: 0.5rem;
+}
+.information {
+  margin-top: 5rem;
+  background: #ff3300;
+}
+.information-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+  text-align: center;
+}
+.information-container > div {
+  width: 30%;
+  background: white;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px #f4f4f4;
+}
+.information-container img {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+.information-container h1 {
+  font-size: 28px;
+  color: #111;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
