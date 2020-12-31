@@ -5,6 +5,11 @@
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.2px;
 }
+.all-content {
+  width:1000px;
+  margin:auto;
+}
+
 ::selection {
   background-color: #ff3300;
   color: white;
@@ -90,7 +95,10 @@ nav ul {
   display: flex;
   align-self: center;
 }
-nav ul li a {
+nav ul li {
+  display: flex;
+}
+nav ul li a:link {
   color: #1a1a1a;
   font-size: 17px;
   text-decoration: none;
@@ -100,6 +108,12 @@ nav ul li a {
 nav ul li a:hover {
   color: #ff3300;
   text-decoration: none;
+}
+nav ul li a:visited {
+  color: #ff3350;
+}
+nav ul li a:active {
+  color:black;
 }
 nav ul li a span {
   display: block;
@@ -183,12 +197,13 @@ header .header-text {
   color: #1a1a1a;
 }
 header .header-text h1 {
-  font-size: 45px;
+  font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
 }
 header .header-text h3 {
   margin-bottom: 1rem;
+  font-size: 20px;
 }
 header .header-text > a {
   background: #ff3300;
@@ -657,6 +672,9 @@ footer p {
   line-height: 30px;
   font-size: 17px;
 }
+.footer3 .email {
+  display: flex;
+}
 .footer3 input {
   border: none;
   border: 1px solid #b3b3b3;
@@ -667,6 +685,7 @@ footer p {
   outline: none;
   box-shadow: 1px 1px 5px #ff3300;
 }
+
 .footer3 i {
   position: relative;
   background: #ff3300;
