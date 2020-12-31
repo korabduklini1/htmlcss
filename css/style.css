@@ -293,7 +293,7 @@ header .svg img {
 .about-me,
 .contact {
   display: flex;
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-top: 3rem;
   border-radius: 10px;
@@ -343,7 +343,7 @@ header .svg img {
 /* About me Style */
 
 .services-container {
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-top: 6rem;
   display: grid;
@@ -386,7 +386,7 @@ header .svg img {
   color: white;
 }
 .invest-container {
-  width: 80%;
+  width: 100%;
   margin: auto;
   padding-top: 7rem;
   display: flex;
@@ -433,7 +433,7 @@ a:hover {
   font-size: 25px;
 }
 .autoplay {
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-top: 2rem;
 }
@@ -564,7 +564,7 @@ a:hover {
 .skills-container {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-top: 1rem;
 }
