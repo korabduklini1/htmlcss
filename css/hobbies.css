@@ -1,0 +1,27 @@
+.hobbies {
+    margin-top: 10rem;
+}
+.hobbies > div {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom:7rem;
+}
+.hobbies > div img {
+    width:100%;
+    margin:auto;
+
+}
+.hobbies > div > div {
+    width: 45%;
+}
+.hobbies h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.hobbies p {
+    color: #1a1a1a;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+}
