@@ -25,3 +25,16 @@
     line-height: 30px;
     letter-spacing: 0.3px;
 }
+@media (max-width:576px) {
+    .hobbies > div {
+        display: block;
+    }
+    .hobbies > div > div {
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .hobbies > div img {
+        width: 80%;
+    }
+}

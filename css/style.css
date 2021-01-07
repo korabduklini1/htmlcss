@@ -741,6 +741,14 @@ footer p {
     margin: auto;
     padding: 6px 20px;
   }
+  header .header-container {
+    display:block;
+    padding-top: 5rem;
+    padding-bottom: 12rem;
+  }
+  .svg {
+    display: none;
+  }
   .about-me, .contact {
     width: 90%;
     margin: auto;
@@ -846,17 +854,5 @@ footer p {
   .pre-footer p {
     font-size: 13px;
   }
-  header .header-container {
-    display:block;
-    padding-top: 5rem;
-    padding-bottom: 12rem;
-  }
-  .svg {
-    display: none;
-  }
-  .about-me .contact {
-    display: block;
-    width: 90%;
-    margin: auto;
-  }
+ 
 }

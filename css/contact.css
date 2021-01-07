@@ -80,3 +80,18 @@ header .header-text h3 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+@media (max-width:576px) {
+  .information-container {
+    display: block;
+  }
+  .information-container > div {
+    width: 100%;
+    margin-top:1rem;
+  }
+  .contact-me h1 {
+    font-size: 25px;
+  }
+  .contact-me input, .contact-me textarea, .contact-me button {
+    padding: 6px 20px;
+  }
+}
