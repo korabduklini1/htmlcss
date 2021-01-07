@@ -714,3 +714,149 @@ footer p {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+@media (max-width: 576px) {
+  .all-content {
+    width: 100%;
+  }
+  nav .container {
+    display: block;
+  }
+  nav .logo img {
+    width: 35%;
+    display: block;
+    margin: 1rem auto;
+  }
+  nav ul li a span {
+    display: none;
+  }
+  nav ul li a:link {
+    font-size: 15px;
+    padding:0;
+  }
+  header .header-text {
+    width: 100%;
+    text-align: center;
+  }
+  .btn_wrap {
+    margin: auto;
+    padding: 6px 20px;
+  }
+  .about-me, .contact {
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+  .about-me > div, .contact > div {
+    width: 100%;
+  }
+  .about-me .about-text {
+    text-align: center;
+  }
+  .about-me .about-text h3 {
+    font-size: 16px;
+  }
+  .about-me .about-text h1 {
+    font-size: 25px;
+  }
+  .about-me .about-text p {
+    font-size: 15px;
+  }
+  .services-container {
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+  .invest-container {
+    display: block;
+    text-align: center;
+  }
+  .invest-container h1 {
+    font-size: 30px;
+  }
+  .invest-container p {
+    font-size: 15px;
+  }
+  .invest-container > div {
+    width: 100%;
+  }
+  .invest-container p {
+    width: 100%;
+  }
+  .invest-svg {
+    display: none;
+  }
+  .invest-svg svg {
+    top:4rem!important;
+  }
+  .kind > h1 {
+    font-size: 25px;
+  }
+  .autoplay {
+    width: 60%;
+    margin: auto;
+  }
+  .skills-container {
+    display: block;
+  }
+  .info {
+    width: 100%;
+  }
+  .skills > h1 {
+    font-size: 25px;
+  }
+  .skills-progress {
+    display: block;
+    width: 100%;
+  }
+  .skills-progress > div {
+    width: 60%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+  .skills-progress h4 {
+    font-size: 20px;
+  }
+  .footer-container {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .footer-container > div {
+    width: 100%;
+  }
+  .footer1 p {
+    font-size: 15px;
+  }
+  .footer2 h1 {
+    font-size: 25px;
+  }
+  .footer2 ul li {
+    font-size: 15px;
+  }
+  .footer3 h1 {
+    font-size: 25px;
+  }
+  .footer3 p {
+    font-size: 15px;
+  }
+  .footer3 input {
+    padding:3px 20px;
+  }
+  .pre-footer p {
+    font-size: 13px;
+  }
+  header .header-container {
+    display:block;
+    padding-top: 5rem;
+    padding-bottom: 12rem;
+  }
+  .svg {
+    display: none;
+  }
+  .about-me .contact {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+}
