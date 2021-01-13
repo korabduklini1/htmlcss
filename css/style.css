@@ -293,7 +293,7 @@ header .svg img {
 .about-me,
 .contact {
   display: flex;
-  width: 100%;
+  width: 80%;
   margin: auto;
   margin-top: 3rem;
   border-radius: 10px;
@@ -343,7 +343,7 @@ header .svg img {
 /* About me Style */
 
 .services-container {
-  width: 100%;
+  width: 80%;
   margin: auto;
   margin-top: 6rem;
   display: grid;
@@ -433,7 +433,7 @@ a:hover {
   font-size: 25px;
 }
 .autoplay {
-  width: 100%;
+  width: 80%;
   margin: auto;
   margin-top: 2rem;
 }
@@ -556,6 +556,8 @@ a:hover {
 }
 .skills {
   margin-bottom: 5rem;
+  width: 80%;
+  margin: auto;
 }
 .skills > h1 {
   text-align: center;
@@ -714,7 +716,7 @@ footer p {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .all-content {
     width: 100%;
   }
@@ -854,5 +856,5 @@ footer p {
   .pre-footer p {
     font-size: 13px;
   }
- 
 }
+
